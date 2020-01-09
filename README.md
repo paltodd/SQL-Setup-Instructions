@@ -8,7 +8,7 @@ The following are the installation procedures for a standard install of SQL serv
 5.	Cycle through each screen.  On the Feature Selection screen, select Database Engine Service and other features as needed.
 6.	Unless applications specify a named instance, use Default instance on the Instance Configuration screen
 7.	On The Server Configuration screen change the Account Name for SQL Server Agent and SQL Server Database Engine, SQL Server Analysis Services, & SQL Server Integration Services to the service account that was created for this instance.  
-a.	Enter the password for each account. 
+a.	Enter the password for each account.
 b.	Set Startup Type to Automatic for all services (except SQL Server Browser which should be disabled by default)
 8.	On the Database Engine Configuration screen:
 a.	Server Configuration Tab
