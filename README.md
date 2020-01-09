@@ -50,7 +50,7 @@ b.	Set Max Degree of Parallelism as needed
 17.	Install prerequisite scripts
 a.	OlaMaintenanceSolution.sql  -this creates backup, index defrag, and db integrity check jobs
 i.	https://ola.hallengren.com/
-ii.	Schedule maintenance jobs - Run OlaJobSchedules.sql to set initial times
+ii.	Schedule maintenance jobs - Run OlaJobSchedules.sql to set initial times (https://github.com/paltodd/paltodd-SQL-Setup-OlaJobSchedules/blob/master/OlaJobSchedules.sql)
 b.	Who_Is_Active.sql  -this creates the sp_WhoIsActive proc in the master database
 i.	http://whoisactive.com/
 18.	Run Post-Installation scripts located in SQL-Setup-PerformanceMonitor
