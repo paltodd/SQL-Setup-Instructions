@@ -54,7 +54,7 @@ ii.	Schedule maintenance jobs - Run OlaJobSchedules.sql to set initial times (ht
 b.	Who_Is_Active.sql  -this creates the sp_WhoIsActive proc in the master database
 i.	http://whoisactive.com/
 18.	Run Post-Installation scripts located in SQL-Setup-PerformanceMonitor
-a.	IndexAllFragmentation.sql - performance monitoring
+a.	IndexAllFragmentation.sql (https://github.com/paltodd/SQL-Setup-PerformanceMonitor/blob/master/IndexAllFragmentation_public.sql) - performance monitoring
 19.	Once Production Databases have been setup run SQL-Setup-Alerts: Generate SQL_alerts.sql. Change the output to "Results to Text" and copy and run the results in a new query window. You may need to change the text output on your machine to max characters to get the full script.
 20.	If SQL 2017 or higher Run: Tasks > Vulnerability Assessment on each database and review/remediate findings
  
