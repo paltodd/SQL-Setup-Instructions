@@ -3,7 +3,7 @@ The following are the installation procedures for a standard install of SQL serv
  
 1.	Set server power plan to High.
 2.	Create local “Documents” folder on C: drive and copy SQL-Setup-AuxilaryFiles there.
-3.	Navigate to the local folder containing the RTM install and launch the Setup.exe
+3.	Copy the SQL install file locally and launch Setup.exe.
 4.	Click the Installation option on the left pane then choose New SQL Server stand-alone installation or Add Features to an existing installation
 5.	Cycle through each screen.  On the Feature Selection screen, select Database Engine Service and other features as needed.
 6.	Unless applications specify a named instance, use Default instance on the Instance Configuration screen
