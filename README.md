@@ -37,7 +37,7 @@ d.	Using SSMS run DBCC TRACESTATUS to ensure flags have been turned on
 a.	Go to Local Policies then User Rights Assignment
 i.	Open Perform volume maintenance tasks and add the SQL Server service account for this server (done during install with SQL 2017)
 13.	Install latest SQL Service Pack and CU (if available).
-14.	Run SQL-Setup-DBAWORK\DBAWORK_Setup.sql (https://github.com/paltodd/SQL-Setup-DBAWORK/DBAWORK_Setup_public.sql)
+14.	Run SQL-Setup-DBAWORK\DBAWORK_Setup.sql (https://github.com/paltodd/SQL-Setup-DBAWORK/blob/master/DBAWORK_Setup_public.sql)
 a.	If needed detach and move .mdf and .log files to correct folders
 15.	SQL Server Properties (use the following defaults unless otherwise specified)
 a.	Set  Maximum Server Memory - leave 10% for OS
